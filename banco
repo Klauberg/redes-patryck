@@ -1,0 +1,6 @@
+CREATE TABLE pessoa (
+                id_pessoa VARCHAR AUTO_INCREMENT NOT NULL,
+                nome VARCHAR(260) NOT NULL,
+                sobrenome VARCHAR NOT NULL,
+                PRIMARY KEY (id_pessoa)
+);
